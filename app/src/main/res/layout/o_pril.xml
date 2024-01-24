@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8E9FF">
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="376dp"
+        android:layout_height="220dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="136dp"
+        android:text="&quot;Жасмин&quot; — это не просто салон массажа, это пространство, где красота и здоровье сливаются в одно целое. Мы создаем атмосферу полного покоя и расслабления, где клиенты могут отключиться от повседневной суеты и по-настоящему погрузиться в процесс восстановления. Наше внимание к деталям и личным предпочтениям каждого клиента позволяет &quot;Жасмин&quot; оставаться в числе лучших салонов массажа, предлагая уникальный и запоминающийся опыт."
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="О приложении"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.100000024" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="376dp"
+        android:layout_height="240dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:text="В течение последних 10 лет салон массажа &quot;Жасмин&quot; занимает особое место в жизни тех, кто ценит красоту и здоровье. Наше учреждение сочетает инновационные техники массажа с лучшими традициями ухода за телом, предлагая уникальный опыт, который одинаково заботится о вашем физическом и эмоциональном благополучии. Мы используем передовое оборудование и индивидуальный подход к каждому клиенту, обеспечивая эффективное решение их уникальных потребностей в релаксации и уходе."
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25"
+        tools:ignore="DuplicateIds" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="300dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="#D9A2F4"
+        android:text="На главную"
+        android:onClick="openMain"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:cornerRadius="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
